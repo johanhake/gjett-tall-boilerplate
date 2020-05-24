@@ -5,10 +5,11 @@ Vi skal lage en web-applikasjon hvor brukeren skal gjette ett tall. Brukeren ska
 * Last ned boilerplate-koden i github-desktop gjennom å kopiere linken under *clone or download* oppe til høyre.
 
 ## JavaScript-begrep vi trenger
-Etter begrepet står siden det er forklart på i [JavaScript kompendiet](https://www.dropbox.com/s/vzhfge01cklau5m/JavaScript%20og%20Firebase%20oppskrifter.docx?dl=0)
-* Variabler vi kan endre verdi på (sid 1)
-* HTLM-objekter (sid 2)
-* Lytterfunksjoner (sid 3)
+På OneNote Resurser -> JavaScript står det om noen begreper dere kan trenge til å utvide applikasjonen.
+
+* Variabler vi kan endre verdi
+* Lytterfunksjoner
+* HTLM-objekter
 
 ## Spesifikasjon
 * Lag en applikasjon hvor en bruker skal gjette et tall hen ikke vet hva er.
@@ -23,6 +24,3 @@ Etter begrepet står siden det er forklart på i [JavaScript kompendiet](https:/
 5. Brukeren skal kunne endre på maks og min verdien til intervallet.
 6. Brukeren skal få høre en (feil.mp3) når hen gjetter feil og en annen lyd (riktig.mp3) når hen gjetter riktig. Les [her](https://www.w3schools.com/jsref/met_audio_play.asp) for å finne ut hvordan du styrer avspilling av lyd (audio-element) fra JS.
 7. Brukeren skal få en visuell respons på intervallet som tallet kan ligge i.  F eks at to vertikale streker markerer starten og sluttet på intervallet og disse forflytter seg innover med gjettningene.
-
-
-
