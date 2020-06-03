@@ -34,11 +34,11 @@
     <script>
 
         // Få tak på HTML-objekter
-        var inpGjetting = document.getElementById("inpGjetting");
-        var txtBeskjed = document.getElementById("txtBeskjed");
+        let inpGjetting = document.getElementById("inpGjetting");
+        let txtBeskjed = document.getElementById("txtBeskjed");
 
         // Lager et tilfeldig tall mellom 1 og 10
-        var korrektTall = Math.floor((Math.random() * 10) + 1);;
+        let korrektTall = Math.floor((Math.random() * 10) + 1);
 
         // Lytter funksjon som kalles når noen har gjort en gjetning.
         function gjett(event) {
@@ -47,7 +47,7 @@
             event.preventDefault();
 
             // Henter ut tallet brukeren har gjettet og gjør om det til et tall
-            var gjettetTall = Number(inpGjetting.value);
+            let gjettetTall = Number(inpGjetting.value);
 
             // Sletter tall fra inputfelt
             inpGjetting.value = "";
@@ -57,8 +57,10 @@
             // If-test for å finne ut om man har gjettet riktig. 
             if (korrektTall === gjettetTall) {
                 // Skriv kode for korrekt gjetting
+                txtBeskjed.innerHTML = "Du gjettet riktig!"
             } else {
                 // Skriv kode for feil gjetting
+                txtBeskjed.innerHTML = "Du gjettet feil! Prøv igjen!"
             }
         }
 
